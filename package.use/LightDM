@@ -1,0 +1,2 @@
+# https://wiki.gentoo.org/wiki/LightDM/ja
+x11-misc/lightdm -audit -qt5

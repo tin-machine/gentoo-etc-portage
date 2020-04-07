@@ -1,0 +1,15 @@
+# https://wiki.gentoo.org/wiki/Xfce/ja
+app-text/poppler -qt5
+
+xfce-base/xfce4-settings -libnotify -xklavier -colord -libcanberra
+# libnotify https://packages.gentoo.org/useflags/libnotify
+# upower バッテリー関連かも https://qiita.com/ka_/items/6670d437055f2e9cc537
+# xklavier https://packages.gentoo.org/useflags/xklavier
+
+xfce-base/xfwm4 -opengl -startup-notification -xcomposite -xpresent
+
+xfce-base/xfce4-session -nls -policykit -xscreensaver
+
+# emerge --ask xfce-base/xfwm4 xfce-base/xfce4-panel xfce-base/xfce4-settings xfce-base/xfce4-session
+
+# オートログイン https://qiita.com/tomi_sheep/items/8ce0dcae1af7161e0244
