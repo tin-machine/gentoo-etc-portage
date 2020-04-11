@@ -8,8 +8,10 @@ xfce-base/xfce4-settings -libnotify -xklavier -colord -libcanberra
 
 xfce-base/xfwm4 -opengl -startup-notification -xcomposite -xpresent
 
-xfce-base/xfce4-session -nls -policykit -xscreensaver
+xfce-base/xfce4-session -nls policykit -xscreensaver elogind
 
 # emerge --ask xfce-base/xfwm4 xfce-base/xfce4-panel xfce-base/xfce4-settings xfce-base/xfce4-session
 
 # オートログイン https://qiita.com/tomi_sheep/items/8ce0dcae1af7161e0244
+
+sys-auth/consolekit policykit
