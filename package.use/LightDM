@@ -1,4 +1,4 @@
 # https://wiki.gentoo.org/wiki/LightDM/ja
 x11-misc/lightdm -audit -qt5 -gnome
-sys-apps/accountsservice -consolekit elogind -systemd  # consolekit elogind systemd から一つ選ぶ必要がある
+sys-apps/accountsservice -consolekit -elogind systemd  # consolekit elogind systemd から一つ選ぶ必要がある
 dev-libs/glib dbus   # xfce4 か lightdm がログイン時にdbusに接続に行く
